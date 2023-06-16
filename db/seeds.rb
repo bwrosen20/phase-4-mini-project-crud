@@ -1,6 +1,8 @@
 puts "🌱 Seeding spices..."
 
 # Spice Data from spicejungle.com
+
+Spice.destroy_all
 Spice.create!([
   {
     title: "Allspice Berries, Whole (Jamaican)",
